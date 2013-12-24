@@ -2,7 +2,7 @@ module ESPN
   class << self
     
     def leagues
-      @leagues || %w(uefa.champions)
+      @leagues || %w(soccer)
     end
     
     def leagues=(leagues)
